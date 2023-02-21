@@ -15,16 +15,19 @@
   --p-font-size: 15px;
   --header-font-weight: 700;
   --p-font-weight: 400;
-  --content-width: max(200px, 18%);
+  --content-width: max(200px, 24%);
   --shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
 body {
+  height: 100vh;
+  background-color: var(--light-gray);
+  font-family: var(--font-family);
+}
+main {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background-color: var(--light-gray);
-  font-family: var(--font-family);
+  height: 100%;
 }
 .container {
   display: flex;
